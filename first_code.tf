@@ -1,9 +1,9 @@
 provider "aws" {
     profile = "default"
-    region = "europe-west-2"
+    region = "eu-west-2"
 }
 
-resource "aws_s3_bucket" "tf_course" {
-    bucket = "tf-course-20191118"
-    ac1 = "private"
+resource "aws_s3_bucket" "tf_course_12drhr3" {
+    bucket = "tf-course-20191118inoi"
+    acl = "private"
 }
